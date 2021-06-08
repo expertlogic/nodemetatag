@@ -1,0 +1,9 @@
+<h2>Welcome to about section with some user info add</h2>
+<div class="">
+  <div *ngFor="let user of users">
+    <p> User Name:{{ user.name }} </p>
+    <p>Address: {{user.address.street}} {{user.address.suite}} {{user.address.city}} {{user.address.zipcode}}</p>
+    <p> User Email:{{ user.email }} </p>
+    <hr>
+  </div>
+</div>
